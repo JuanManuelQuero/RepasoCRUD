@@ -1,0 +1,23 @@
+{
+    "name": "juanm/tarea-recuperacion-pdo",
+    "description": "Proyecto CRUD",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "juanma",
+            "email": "juanma@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "clases"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.14"
+    }
+}
